@@ -1,4 +1,8 @@
-# nlp-01-getting-started
+# nlp-02-text-preprocessing
+
+## Author
+Katherine McGaughey  
+https://github.com/k363m611/nlp-02-text-preprocessing
 
 [![Python 3.14+](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](#)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
@@ -18,7 +22,8 @@ These projects are **hands-on textbooks** for learning Web Mining and Applied NL
 
 ## This Project
 
-This is the **getting started** project.
+This is the **text preprocessing** project.
+The goal is to clean, process, and analyze raw text data for natural language processing (NLP).
 The goal is to copy this repository, set up your environment, run the example script and notebook, and push your work to GitHub.
 Then, you'll change the authorship to make the project yours and explore the structure.
 No major code changes are required.
@@ -82,8 +87,8 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/nlp-01-getting-started
-cd nlp-01-getting-started
+git clone https://github.com/username/nlp-02-text-preprocessing
+cd nlp-02-text-preprocessing
 code .
 ```
 
@@ -106,7 +111,7 @@ uvx pre-commit run --all-files
 
 # First, run the module
 # IMPORTANT: Close each figure after viewing so execution continues
-uv run python -m nlp.web_words_case
+uv run python -m nlp.text_preprocessing_case
 
 # Then, open the notebook.
 # IMPORTANT: Select the kernel and Run All:
